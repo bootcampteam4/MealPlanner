@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <Button
+        android:id="@+id/button_addProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:text="ADD PRODUCT"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/button_checkInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_addProduct"
+        android:text="CHECK INVENTORY"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/button_mealPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_checkInventory"
+        android:text="MEAL PLAN"
+        android:textSize="18sp"
+        />
+</RelativeLayout>
